@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eddy - Site Perso</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --secondary: #1e40af;
+            --light: #f8fafc;
+            --dark: #1e293b;
+            --accent: #f59e0b;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+        
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            text-align: center;
+            padding: 3rem 1rem;
+            clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .tagline {
+            font-size: 1.5rem;
+            opacity: 0.9;
+            margin-bottom: 2rem;
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: var(--accent);
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            margin: 0.5rem;
+        }
+        
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        section {
+            padding: 4rem 0;
+        }
+        
+        .about {
+            text-align: center;
+        }
+        
+        .about p {
+            max-width: 800px;
+            margin: 0 auto 2rem;
+            font-size: 1.1rem;
+        }
+        
+        .skills {
+            background-color: white;
+            border-radius: 10px;
+            padding: 2rem;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            margin-top: 2rem;
+        }
+        
+        footer {
+            background-color: var(--dark);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+            
+            .tagline {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Eddy</h1>
+            <p class="tagline">Bienvenue sur mon site personnel</p>
+            <a href="#contact" class="btn">Me contacter</a>
+            <a href="#about" class="btn">En savoir plus</a>
+        </div>
+    </header>
+    
+    <section id="about" class="about">
+        <div class="container">
+            <h2>À propos de moi</h2>
+            <p>Passionné par la technologie et le développement, je partage ici mes projets et mes centres d'intérêt. Ce site est un espace où je présente mon parcours et mes réalisations.</p>
+            <p>N'hésitez pas à explorer et à me faire part de vos retours !</p>
+        </div>
+    </section>
+    
+    <section class="container skills">
+        <h2>Mes compétences</h2>
+        <p>Voici quelques-unes de mes compétences et technologies que j'utilise :</p>
+        <ul style="margin-top: 1rem; list-style-position: inside;">
+            <li>Développement Web (HTML, CSS, JavaScript)</li>
+            <li>Gestion de projets</li>
+            <li>Réseaux et systèmes</li>
+            <li>Photographie</li>
+        </ul>
+    </section>
+    
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <p>Vous pouvez me contacter via :</p>
+        <p style="margin-top: 1rem;">
+            <a href="mailto:eddy@example.com" class="btn">Email</a>
+            <a href="https://linkedin.com" class="btn">LinkedIn</a>
+        </p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Eddy - Tous droits réservés</p>
+    </footer>
+</body>
+</html>
