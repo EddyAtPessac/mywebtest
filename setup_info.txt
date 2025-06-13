@@ -1,2 +1,2 @@
 1.01
-Faux_Setup.exe
+https://eddyatpessac.github.io/mywebtest/Faux_Setup.exe
