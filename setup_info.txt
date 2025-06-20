@@ -1,2 +1,2 @@
 1.01
-https://eddyatpessac.github.io/mywebtest/Faux_Setup.exe
+https://github.com/EddyAtPessac/mywebtest/releases/download/V1.01/setup_ap3pc.exe
